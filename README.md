@@ -112,7 +112,7 @@ docs/015.md
 
 ```html
 <script src="js/marked.umd.js"></script>
-<script src="js/app.js" defer></script>
+<script src="js/app.js"></script>
 ```
 
 当前压缩包内置的是 **Marked 4.0.19 UMD**。如果你已经在其他项目中保存了更新版本的 `marked.umd.js`，可以直接覆盖该文件；本项目只使用基础的 `marked.parse()` / `marked.setOptions()` 接口。
